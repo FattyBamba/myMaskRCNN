@@ -38,7 +38,7 @@ class DetConfig(Config):
         Config.__init__(self)
 
     # A GPU with 12GB memory can fit two images.
-    IMAGES_PER_GPU = 8
+    IMAGES_PER_GPU = 2
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
